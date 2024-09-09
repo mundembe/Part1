@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MasimbaMundembe\Documents\RoseBank\PROG_2b\Part1\Project
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MasimbaMundembe/Documents/RoseBank/PROG_2b/Part1/Project/Views/AcademicManager/ActionResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXEFjdGlvblJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MasimbaMundembe/Documents/RoseBank/PROG_2b/Part1/Project/Views/AcademicManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MasimbaMundembe/Documents/RoseBank/PROG_2b/Part1/Project/Views/AcademicManager/ViewClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNhZGVtaWNNYW5hZ2VyXFZpZXdDbGFpbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MasimbaMundembe/Documents/RoseBank/PROG_2b/Part1/Project/Views/Claim/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
