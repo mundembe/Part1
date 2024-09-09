@@ -1,8 +1,21 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Contract Monthly Claim System (CMCS)";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="jumbotron mt-4">
+        <h1 class="display-4">Welcome to the Contract Monthly Claim System (CMCS)</h1>
+        <p class="lead">
+            The CMCS is designed to streamline the process of submitting and approving monthly claims for independent contractor lecturers.
+            This system ensures an efficient, accurate, and user-friendly experience for lecturers, Programme Coordinators, and Academic Managers.
+        </p>
+        <hr class="my-4">
+        <p>
+            Explore the system using the links below:
+        </p>
+        <a class="btn btn-primary btn-lg" href="/Lecturer/Index" role="button">Lecturer Dashboard</a>
+        <a class="btn btn-secondary btn-lg" href="/Claim/Index" role="button">Submit a Claim</a>
+        <a class="btn btn-info btn-lg" href="/Coordinator/Index" role="button">Coordinator Dashboard</a>
+        <a class="btn btn-warning btn-lg" href="/Manager/Index" role="button">Academic Manager Dashboard</a>
+    </div>
 </div>
