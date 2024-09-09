@@ -1,0 +1,42 @@
+@model IEnumerable<dynamic>
+@{
+    ViewData["Title"] = "Pending Claims";
+}
+
+<div class="container">
+    <h2>Pending Claims for Approval</h2>
+
+    @if (!Model.Any())
+    {
+        <p>No claims are currently pending approval.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Lecturer Name</th>
+                    <th>Hours Worked</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model)
+                {
+                    <tr>
+                        <td>@claim.Id</td>
+                        <td>@claim.LecturerName</td>
+                        <td>@claim.HoursWorked</td>
+                        <td>@claim.Status</td>
+                        <td>
+                            <a href="@Url.Action("Approve", "Coordinator", new { id = claim.Id })" class="btn btn-success">Approve</a>
+                            <a href="@Url.Action("Reject", "Coordinator", new { id = claim.Id })" class="btn btn-danger">Reject</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
